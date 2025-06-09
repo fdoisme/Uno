@@ -213,7 +213,7 @@ public class GameController
         ShuffleDeck(_drawPile.Cards);
         foreach (IPlayer player in _players)
         {
-            DrawCardToPlayer(player, 1);
+            DrawCardToPlayer(player, 7);
         }
         SetupInitialDiscard();
         IntializeTurn();
